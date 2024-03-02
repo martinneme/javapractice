@@ -1,12 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.practice</groupId>
-  <artifactId>clase-00</artifactId>
+  <groupId>com.coderhouse</groupId>
+  <artifactId>market-buy</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <description>Primera practica</description>
-  <properties>
-	  <maven.compiler.source>21</maven.compiler.source>
-	  <maven.compiler.target>21</maven.compiler.target>
-  </properties>
-  
+  <description>Lista de compra</description>
 </project>
