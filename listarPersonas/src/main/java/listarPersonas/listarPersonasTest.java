@@ -20,9 +20,11 @@ public class listarPersonasTest {
 		personas.add(persona4);
 		personas.add(persona5);
 		
-		List<Persona> personasOrderByName = OrdenarPersonas.ordernarPorNombre(personas);
+		try {
+				List<Persona> personasOrderByName = OrdenarPersonas.ordernarPorNombre(personas);
 		List<Persona> personasOrderByLastName = OrdenarPersonas.ordernarPorApellido(personas,"ASC");
-		List<Persona> personasOrderByLastNameReversed = OrdenarPersonas.ordernarPorApellido(personas,"DESC");
+		List<Persona> personasOrderByLastNameReversed = OrdenarPersonas.ordernarPorApellido(personas,"DESCF");
+		
 		
 		System.out.println("Personas ordenadas por nombre \n");
 		for(Persona persona : personasOrderByName) {
@@ -39,6 +41,13 @@ public class listarPersonasTest {
 			System.out.println("Nombre: "+persona.getNombre()+" "+"Apellido: "+ persona.getApellido());
 		
 		}
+		
+		}catch(Exception e) {
+			System.out.println("Error al ordenar:"+ e);
+		}
+	
+		
+	
 		
 
 	}
