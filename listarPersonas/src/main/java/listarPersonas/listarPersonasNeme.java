@@ -3,7 +3,7 @@ package listarPersonas;
 import java.util.ArrayList;
 import java.util.List;
 
-public class listarPersonasTest {
+public class listarPersonasNeme {
 
 	public static void main(String[] args) {
 
@@ -23,7 +23,7 @@ public class listarPersonasTest {
 		try {
 				List<Persona> personasOrderByName = OrdenarPersonas.ordernarPorNombre(personas);
 		List<Persona> personasOrderByLastName = OrdenarPersonas.ordernarPorApellido(personas,"ASC");
-		List<Persona> personasOrderByLastNameReversed = OrdenarPersonas.ordernarPorApellido(personas,"DESCF");
+		List<Persona> personasOrderByLastNameReversed = OrdenarPersonas.ordernarPorApellido(personas,"DESC");
 		
 		
 		System.out.println("Personas ordenadas por nombre \n");
