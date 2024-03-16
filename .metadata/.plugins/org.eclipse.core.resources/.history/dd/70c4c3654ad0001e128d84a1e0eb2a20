@@ -1,0 +1,12 @@
+package com.practiceCoderHouse;
+
+public class PracticeOne {
+
+	public static void main(String[] args) {
+int x=45;
+
+System.out.println("El valor es "+ x);
+
+	}
+
+}
