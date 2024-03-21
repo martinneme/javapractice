@@ -1,4 +1,4 @@
-package com.coderhouse.controler;
+package com.coderhouse.controller;
 
 
 import java.sql.Connection;

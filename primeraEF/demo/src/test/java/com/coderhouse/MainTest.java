@@ -1,7 +1,7 @@
 package com.coderhouse;
 
 import com.coderhouse.Entities.Client;
-import com.coderhouse.controler.JavaDataBaseController;
+import com.coderhouse.controller.JavaDataBaseController;
 
 public class MainTest {
 
